@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="TN_Chrome_and_Mozila" parallel="classes">
+    <test name="Parallel Class Execution">
+        <classes>
+            <class name="demoTestNG.TN_ChromeDriver"></class>
+            <class name="demoTestNG.TN_FireFox" ></class>
+        </classes>
+    </test>
+</suite>

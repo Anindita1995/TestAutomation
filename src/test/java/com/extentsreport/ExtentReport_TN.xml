@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="All Test Suite">
+    <test name="LogInTest">
+    <classes>
+            <class name="com.extentsreport.LoginTestClass">
+            </class>
+        </classes>
+    </test>
+    <test name ="RegistrationTest">
+        <classes>
+            <class name="com.extentsreport.RegistrationTestClass">
+            </class>
+        </classes>
+    </test>
+    <test name="LogOutTest">
+        <classes>
+            <class name="com.extentsreport.LogoutTestClass">
+            </class>
+           </classes>
+    </test>
+
+</suite>

@@ -1,0 +1,13 @@
+In this package we are using ITestListener
+
+Using ITestListener Interface:We use ITestListener interface when we need to customize
+real time report. In other words, if we are executing the bunch of test cases, in a TestNG suit
+and we want to get the report of each test case, then after each test case we need to implement
+ITestListener interface. This interface will override onTestFailure, onTestStart, onTestSkipped
+method to send the correct status of the current test case.
+
+here are the test we are following:
+step1: Create LoginTN_CustomizeReport.java and implement iTestListener in it.
+step2: Implement methods of iTestListener. (onStart, onTestStart,onTestsuccess.......)
+step3: Create test method class (Login_TN) write test methods, and add LoginTN_CustomizeReport
+class as a Listener in Test Method class.

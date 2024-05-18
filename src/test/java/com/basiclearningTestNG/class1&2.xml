@@ -1,0 +1,24 @@
+
+<suite name="TestSuite for Class1 and Class2" thread-count="2" parallel="classes" >
+    <test name="C:/Users/Anindita/IdeaProjects/TestNGAutomation/src/main/java/com/basiclearningTestNG/Class1.java">
+        <classes>
+            <class name="com.basiclearningTestNG.Class1">
+                <methods>
+                    <include name="setUp"/>
+                </methods>
+            </class>
+            <class name="com.basiclearningTestNG.Class2">
+                <methods>
+                    <include name="setUp"/>
+                </methods>
+            </class>
+        </classes>
+    </test>
+    </suite>
+<!-- 1) thread-count: This is used for parallel execution, based on the number script. It will execute in parallel or sequential order.-->
+
+<!-- 2) verbose: It is used to log the execution details in the console. The value should be 1-10. The log details in the console window will get more detailed and clearer as you increase the value of the verbose attribute in the TN_ChromeDriver.xml configuration file.-->
+
+<!-- 3) name: Name of the suite. Here it is “Gmail Suite”-->
+
+<!-- 4) Parallel: To run scripts parallel, value can be tests/classes/methods/suites. Default value is none-->
